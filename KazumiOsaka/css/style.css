@@ -156,7 +156,7 @@ header {
 
 
 footer {
-    height:50px;
+    height:40px;
     width: 100%;
     background-color: #FFEBCD;
 }
@@ -164,9 +164,10 @@ footer {
 .footer-list li {
 	float:left;
 	list-style: none;
-	line-height: 50px;	
+	line-height: 40px;	
 	margin-right:10px;
 	margin-left:10px; 
+	font-size: 13px;
 }
 
 .footer-list li a {
@@ -229,38 +230,54 @@ footer {
 
 .contact-wrapper{
 	margin-top: 80px;
-	margin-left: 100px;
+}
+
+form h3{
+	text-align: center;
 }
 
 form h4{
+	text-align: center;
 	font-weight: normal;
 	margin-bottom:30px;
+	font-size:13px;
 }
 
 form p{
 	font-size: 13px;
+	text-align: right;
+
+}
+
+.qform {
+	width:700px;
+	margin: 0 auto;
+
 }
 
 input {
   width:400px;
   margin-top:10px;
   margin-bottom:20px;
-  padding:10px;
+  padding:7px;
   font-size:13px;
   border:1px solid #dee7ec;
+  border-radius: 3px;
 }
 
 textarea {
   width:400px;
   height:200px;
   margin-top:10px;
-  margin-bottom:30px;
-  padding:10px;
+  margin-bottom:10px;
+  padding:7px;
   font-size:13px;
   border:1px solid #dee7ec;
+  border-radius: 3px;
 }
 
-.bottun {
+.button {
+	display: block;
 	width: 200px;
-	margin-left: 30px;
+	margin:50px auto;
 }
