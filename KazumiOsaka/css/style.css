@@ -127,7 +127,7 @@ header {
 .goal {
 	padding:30px 50px;
 	margin: 0 auto;
-	background-color: #F0FFFF;
+	background-color: #DDFFFF;
 	margin-bottom:30px;
 	max-width:1024px;
 }
@@ -203,20 +203,22 @@ footer {
 
 .detail-above{
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	margin: 50px auto;
 }
 
 .detail{
-	text-align: center;
 	width: 200px;
 	font-size:15px;
+	margin-right:30px;
+	margin-left:30px;
 }
 
 .detail h3{
 	font-weight: normal;
 	border-bottom:1px solid black;
 	margin: 20px auto;
+	text-align: center;
 }
 
 .detail img{
@@ -238,7 +240,7 @@ footer {
 .promise {
 	padding:30px 50px;
 	margin: 70px auto;
-	background-color: #F0FFFF;
+	background-color: #DDFFFF;
 	margin-bottom:30px;
 	width: 700px;
 }
@@ -251,6 +253,42 @@ footer {
  
 .promise p{
 	text-align: center;
+}
+
+/*ここからはresults.html のcss*/
+.results-wrapper {
+	margin: 75px auto;	
+}
+
+.results-wrapper h2 {
+	margin-bottom: 40px;
+	font-family: 'Noto Sans Japanese';
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+.results {
+    display: flex;
+	justify-content: center;
+	max-width:1024px;
+	margin: 0 auto;
+}
+
+.results-detail{
+	margin-right:30px;
+	margin-left:30px;
+
+}
+
+.results p{
+	font-size: 13.5px;
+	width:200px;
+}
+
+.facebook {
+	text-align: center;
+	margin-bottom:100px;
+	color: black;
 }
 
 /*ここからはcontact.html のcss*/
