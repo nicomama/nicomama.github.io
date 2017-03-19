@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	$('.header-icon').click(function(){
-		$('.header-right-wrapper').slideToggle();
+		$('.header-right-wrapper').slideToggle(300);
 	});
 
 
