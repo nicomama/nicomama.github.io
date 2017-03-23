@@ -1,10 +1,6 @@
-$(document).ready(function(){
+$(function(){
 
 	$('.header-icon').click(function(){
-		$('.header-right-wrapper').slideToggle(300);
+		$('.header-right').slideToggle(300);
 	});
-
-
 });
-
-
